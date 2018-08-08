@@ -151,9 +151,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\xamarin_playground\xamarin_playground.csproj">
-      <Project>{CA3FECFD-D99D-4BE8-874B-AB050D4A0EA7}</Project>
-      <Name>xamarin_playground</Name>
+    <ProjectReference Include="..\xamarin-playground\xamarin-playground.csproj">
+      <Project>{52B6FA64-B42E-4A87-8228-FB8987CF7F67}</Project>
+      <Name>xamarin-playground</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
