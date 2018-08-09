@@ -3,6 +3,6 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Future Moisture Sensor Application!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-        <Button Text="Click ME" Command="{Binding clickMeAction}" HorizontalOptions="CenterAndExpand" VerticalOptions="End"/>
+        <Button Text="Click ME" Clicked="PressMe_ButtonClicked" HorizontalOptions="CenterAndExpand" VerticalOptions="End"/>
     </StackLayout>
 </ContentPage>

@@ -13,5 +13,10 @@ namespace xamarin_playground
         {
             InitializeComponent();
         }
+
+        private void PressMe_ButtonClicked(object sender, EventArgs eventArgs){
+            (sender as Button).Text = "I was just clicked!";
+        }
+
     }
 }
